@@ -81,6 +81,26 @@ Estos son datos que te proponemos:
   [Studio Ghibli](https://ghiblicollection.com/).
   - [Investigación con seguidores de las animaciones del Studio Ghibli](src/data/ghibli/README.md)
 
+* [Countries](src/data/countries/countries.json).
+  En este set encontrarás la informacion de varios paises
+  - [Investigación](src/data/countries/README.md)
+
+* [Tarot](src/data/tarot/tarot.json).
+  En este set encontrarás la informacion acerca de algunas cartas de tarot.
+  - [Investigación](src/data/tarot/README.md)
+
+* [Breaking Bad](src/data/breakingbad/breakingbad.json).
+  En este set encontrarás la informacion sobre los personajes de la serie breakingbad.
+  - [Investigación con los seguidores de la serie Breaking Bad](src/data/breakingbad/README.md)
+
+* [Juego de Tronos](src/data/got/got.json).
+  En este set encontrarás la informacion sobre algunos de los personajes de la serie GOT.
+  - [Investigación con los seguidores de la serie Breaking Bad](src/data/got/README.md)
+
+El objetivo principal de este proyecto es que aprendas a diseñar y construir una
+interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
+usuario necesita.
+
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
 interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
 usuario necesita.
