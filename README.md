@@ -95,7 +95,7 @@ Estos son datos que te proponemos:
 
 * [Juego de Tronos](src/data/got/got.json).
   En este set encontrarás la informacion sobre algunos de los personajes de la serie GOT.
-  - [Investigación con los seguidores de la serie Breaking Bad](src/data/got/README.md)
+  - [Investigación con los seguidores de la serie GOT](src/data/got/README.md)
 
 El objetivo principal de este proyecto es que aprendas a diseñar y construir una
 interfaz web donde se pueda visualizar y manipular data, entendiendo lo que el
@@ -350,7 +350,7 @@ Illustrator, Photoshop, PowerPoint, Keynote, etc.
 
 El diseño debe representar el _ideal_ de tu solución. Digamos que es lo que
 desearías implementar si tuvieras tiempo ilimitado para trabajar. Además, tu
-diseño debe seguir los fundamentos de _visual design_.
+diseño debe seguir los fundamentos de _[visual design](https://coda.io/d/Bootcamp-UX-Contenido_dqkqk2rV9Z2/Diseno-de-interfaces_suOT7#_luWsQ)_.
 
 #### Testeos de usabilidad
 
