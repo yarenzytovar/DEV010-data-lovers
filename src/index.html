@@ -6,29 +6,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <!--ENCABEZADO-->
-    <header>
-  <img class="imgbb"
-  src = "https://www.pngplay.com/wp-content/uploads/6/Breaking-Bad-Logo-PNG-HD-Quality.png"
-  height="150"
-  width="800"/>
-    </header>
-    
-    <!--BARRA DE NAVEGACION-->
-    <nav class="navbar">
+
+  <!--ENCABEZADO-->
+  <header>
+      <img class="imgbb"
+      src = "https://www.pngplay.com/wp-content/uploads/6/Breaking-Bad-Logo-PNG-HD-Quality.png"
+      height="150"
+      width="800"/>
+  </header>
+
+  <!--BARRA DE NAVEGACION-->
+  <nav class="navbar">
       <div class="filtros">
         <label for="busqueda">Busqueda</label>
         <input type="search" id="serch" class="buscador" placeholder="Busca a tu personaje">
         <Select id="serie">
-          <option value="">Todas</option>
+          <option value="Todas">Todas</option>
           <option value="BreakingBad">Breaking Bad</option>
           <option value="BetterCallSaul">Better Call Saul</option>
         </Select>
       </div>
-    </nav>
-    
-    
-    <script src="main.js" type="module"></script>
+  </nav>
+
+  <!--SECCION DE MOSTRAR CARTAS-->
+    <section class="contenedor">
+    <div class="cartasPersonajes" id="cartasDePersonajes"></div>
+    <div class="recuadroPersonajes" id="cuadroPersonaje"></div>
+    </section>
+  
+
+  <script src="main.js" type="module"></script>
   </body>
 </html>
