@@ -18,13 +18,19 @@
   <!--BARRA DE NAVEGACION-->
   <nav class="navbar">
       <div class="filtros">
-        <label for="busqueda">Busqueda</label>
-        <input type="search" id="serch" class="buscador" placeholder="Busca a tu personaje">
-        <Select id="serie">
-          <option value="Todas">Todas</option>
+        <label for="busqueda">Search</label>
+        <input type="search" id="serch" class="buscador" placeholder="Type character name">
+        <select id="serie">
+          <option value="Todas">All</option>
           <option value="BreakingBad">Breaking Bad</option>
           <option value="BetterCallSaul">Better Call Saul</option>
         </Select>
+        <label for="orden">Sort by alphabetical order</label>
+        <select id="orden">
+          <option value="" disabled selected>Select</option>
+          <option value="A-Z">A-Z</option>
+          <option value="Z-A">Z-A</option>
+        </select>
       </div>
   </nav>
 
