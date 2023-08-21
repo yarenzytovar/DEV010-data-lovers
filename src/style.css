@@ -11,8 +11,6 @@ header {
   max-width: 100%;
   }
 
-
-
 body {
   background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.wallpapersafari.com%2F71%2F68%2FNeLSIy.jpg);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
@@ -34,7 +32,7 @@ nav {
   font-size: larger;
   }
 
-#serie{
+select{
   border-radius: 25px;
   cursor: pointer;
   background-color: yellow;
@@ -74,7 +72,7 @@ label {
   
 .personajes-tarjeta {
   margin: 10px;
-  background-color: green;
+  background-color: rgb(1, 170, 1);
   border-radius: 25px; 
   height: auto; 
   width: auto;  
