@@ -1,10 +1,8 @@
 // FUNCIONES DE ORDENAR Y FILTRAR
 
-import breakingbad from "./data/breakingbad/breakingbad.js"
-const datosPersonajes = breakingbad;
-
-export const funcionDeOrdenarDatos = (orden) => {
-  const dataOrdenada = datosPersonajes.breaking_bad.sort((a, b) => {
+export const funcionDeOrdenarDatos = (orden, data) => {
+  if(orden === ''){return false}
+  const dataOrdenada = data.sort((a, b) => {
     if(orden === 'A-Z'){
       if(a.name < b.name) { return -1; }
       if(a.name > b.name) { return 1; }
@@ -21,5 +19,9 @@ export const funcionDeOrdenarDatos = (orden) => {
   return dataOrdenada;
 }
 
-
-
+export const filtroCategoriaSerie = (serie, datos) => {
+  if(serie === ''){return false}
+  const serieFiltro = datos.filter((personaje) => 
+    personaje.category.includes(serie));
+  return serieFiltro;
+};
