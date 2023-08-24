@@ -4,6 +4,12 @@ header {
   align-items: center;
   max-height: auto;
   max-width: 100%;
+  background-color: rgba(10, 10, 10, 0.897);
+  width: auto;
+  height: 15%;
+  border-top-right-radius: 3em;
+  border-top-left-radius: 3em;
+  padding-top: 2%;
   }
 
 .imgbb{
@@ -12,19 +18,23 @@ header {
   }
 
 body {
-  background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.wallpapersafari.com%2F71%2F68%2FNeLSIy.jpg);
+  background-image: url(https://2.bp.blogspot.com/-0D87fB1cAPA/Wry2n3j263I/AAAAAAAAEDw/dGW9IFsmt0E9LKR1voZxM5CyCY4bqvd5gCLcBGAs/s1600/breaking3.jpg);
+  /*background-color: #095329;*/
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
   }
 
 nav {
   box-sizing:border-box;
   padding: 30px;
-  background-color: gray;
-  color: rgb(0, 0, 0);
+  background-color: rgba(10, 10, 10, 0.897);
+  color: rgb(248, 245, 245);
   display: flex;
   justify-content: center;
-  margin-top: 2%; 
-  }
+  /*margin-top: 2%;*/
+  /*border-radius: 25px;*/
+  border-bottom-right-radius: 3em;
+  border-bottom-left-radius: 3em;
+}
 
 .buscador{
   border-radius: 25px;
@@ -35,19 +45,23 @@ nav {
 select{
   border-radius: 25px;
   cursor: pointer;
-  background-color: yellow;
+  background-color:#faf601dc;
   font-size: large;
+  color: rgb(17, 16, 16);
+  box-shadow: 0 0 40px rgb(5, 255, 38);
   }
 
 label {
   font-size:x-large;
   font-weight: bolder;
+  color: rgb(248, 245, 245);
   }
 
 .cartasPersonajes { /*revisar*/
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   display:grid;
-  grid-template-columns: 150px 150px 150px 150px 150px;
+  /*grid-template-columns: 150px 150px 150px 150px 150px;*/
+  grid-template-columns: repeat(6, 9.3fr );
   grid-template-rows: repeat();
   grid-gap: 1rem;
   justify-content: center;
@@ -72,10 +86,12 @@ label {
   
 .personajes-tarjeta {
   margin: 10px;
-  background-color: rgb(1, 170, 1);
+  background-color: #0bac25;
   border-radius: 25px; 
   height: auto; 
   width: auto;  
+  box-shadow: 0 0 40px rgb(5, 255, 38);
+  color: black;
   }
 
 .personajes-tarjeta img {
@@ -113,7 +129,8 @@ label {
   max-width: 80%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  text-align: center;          
+  text-align: center; 
+  box-shadow: 0 0 40px rgb(252, 255, 79);         
   }
 
   @media (max-width: 800px) {
