@@ -11,18 +11,16 @@ header {
   max-width: 100%;
   }
 
-
-
 body {
-  background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.wallpapersafari.com%2F71%2F68%2FNeLSIy.jpg);
+  background-image: url(https://2.bp.blogspot.com/-0D87fB1cAPA/Wry2n3j263I/AAAAAAAAEDw/dGW9IFsmt0E9LKR1voZxM5CyCY4bqvd5gCLcBGAs/s1600/breaking3.jpg);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
   }
 
 nav {
   box-sizing:border-box;
   padding: 30px;
-  background-color: gray;
-  color: rgb(0, 0, 0);
+  background-color: #88a8a683;
+  color: rgb(30, 29, 29);
   display: flex;
   justify-content: center;
   margin-top: 2%; 
@@ -34,11 +32,12 @@ nav {
   font-size: larger;
   }
 
-#serie{
+select{
   border-radius: 25px;
   cursor: pointer;
-  background-color: yellow;
+  background-color:rgba(89, 219, 89, 0.854);
   font-size: large;
+  box-shadow: 0 0 40px rgb(209, 232, 61);
   }
 
 label {
@@ -74,7 +73,7 @@ label {
   
 .personajes-tarjeta {
   margin: 10px;
-  background-color: green;
+  background-color: rgb(1, 170, 1);
   border-radius: 25px; 
   height: auto; 
   width: auto;  
