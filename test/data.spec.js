@@ -1,23 +1,71 @@
-import { example, anotherExample } from '../src/data.js';
+import { funcionDeOrdenarDatos, filtroCategoriaSerie } from "../src/data.js";
 
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe("funcionDeOrdenarDatos", () => {
+  it("is a function", () => {
+    expect(typeof funcionDeOrdenarDatos).toBe("function");
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
+  it("returns `funcionDeOrdenarDatos`", () => {
+    const orden = "A-Z";
+    const data = [
+      {
+        name: "Mica",
+      },
+      {
+        name: "Jorge",
+      },
+      {
+        name: "Katy",
+      },
+    ];
+    const dataAZ = [
+      {
+        name: "Jorge",
+      },
+      {
+        name: "Katy",
+      },
+      {
+        name: "Mica",
+      },
+    ]; 
 
+    expect(funcionDeOrdenarDatos(orden, data)).toEqual(dataAZ);
+    expect(funcionDeOrdenarDatos('', data)).toBe(false);
+  });
+})
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
+describe("filtroCategoriaSerie",() => {
+  it ("is a function", () => {
+    expect(typeof filtroCategoriaSerie).toBe ("function");
   });
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it ("deberia filtrar por serie breaking bad", () => {
+    const serie = "Breaking Bad";
+    const datos = [{
+      category: "Breaking Bad"
+    },
+    {
+      category: "Breaking Bad, Better Call Saul"
+    },
+    {
+      category: "Breaking Bad"
+    },
+    {
+      category: "Better Call Saul"
+    }]
+    const datosFiltro = [{
+      category: "Breaking Bad"
+    },
+    {
+      category: "Breaking Bad, Better Call Saul"
+    },
+    {
+      category: "Breaking Bad"
+    },]
+    expect(filtroCategoriaSerie(serie,datos)).toEqual(datosFiltro);
   });
-});
+
+})
+
