@@ -22,16 +22,19 @@
     <input type="search" id="serch" class="buscador" placeholder="Type character name"> -->
         <label for="serie">Filter by series</label>
         <select id="serie">
-          <option value="">All</option>
+          <option value="">Select</option>
           <option value="Breaking Bad">Breaking Bad</option>
           <option value="Better Call Saul">Better Call Saul</option>
         </select>
         <label for="orden">Sort by alphabetical order</label>
         <select id="orden">
-          <option value="" disabled selected>Select</option>
+          <option value="">Select</option>
           <option value="A-Z">A-Z</option>
           <option value="Z-A">Z-A</option>
         </select>
+        <p>If you want to know a Fun fact, click on the button.
+        <br>The percentage that the characters appear in the Breaking Bad series is shown</p>
+         <button id="promedioboton" value="promedioboton">Funfact</button>
       </div>
   </nav>
 
@@ -39,6 +42,7 @@
     <section class="contenedor">
     <div class="cartasPersonajes" id="cartasDePersonajes"></div>
     <div class="recuadroPersonajes" id="cuadroPersonaje"></div>
+    <!--<div clas="promedioBB" id="promedioSerieBB"></div>-->
     </section>
   
 
