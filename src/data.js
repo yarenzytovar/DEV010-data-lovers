@@ -25,3 +25,12 @@ export const filtroCategoriaSerie = (serie, datos) => {
     personaje.category.includes(serie));
   return serieFiltro;
 };
+
+  
+export const promedioBreakingBad = (personajes) => {
+  if(personajes === " "){return false}
+  const promedios = personajes.map(personaje => {const suma = personaje.appearance.reduce((total, temporada) => total + temporada, 0);
+    const promedio = ((suma/ 5)*100/3).toFixed();
+    return {...personaje, promedio};
+  });
+  return promedios};
