@@ -68,7 +68,7 @@ Se desarrolló el CSS de la función de mostrar la información de los personaje
 
 
 Posteriormente en las siguientes iteraciones se modificó el color de fondo y se agregó colores, box-shadow y borde a los botones.
-![Segunda iteración del diseño en CSS](src/imagenes/infopersonaje.jpg)
+![Segunda iteración del diseño en CSS](src/imagenes/nuevo diseño .jpg)
 
 Y para colocar la ultima funcionalidad, se respetó la forma de las tarjetas de los personajes para mostrar los porcentajes de aparición de los personajes en la serie Breaking Bad
 ![Se muestra el porcentaje de aparición de los personajes en la serie](src/imagenes/porcentaje.jpg)
