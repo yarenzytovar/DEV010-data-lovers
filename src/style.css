@@ -4,6 +4,12 @@ header {
   align-items: center;
   max-height: auto;
   max-width: 100%;
+  background-color: rgba(10, 10, 10, 0.897);
+  width: auto;
+  height: 15%;
+  border-top-right-radius: 3em;
+  border-top-left-radius: 3em;
+  padding-top: 2%;
   }
 
 .imgbb{
@@ -18,38 +24,49 @@ body {
 
 nav {
   box-sizing:border-box;
-  padding: 30px;
-  background-color: #88a8a683;
-  color: rgb(30, 29, 29);
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background-color: rgba(10, 10, 10, 0.897);
+  color: rgb(248, 245, 245);
   display: flex;
   justify-content: center;
-  margin-top: 2%; 
-  }
+  border-bottom-right-radius: 3em;
+  border-bottom-left-radius: 3em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
 
 .buscador{
-  border-radius: 25px;
+  border-radius: 3em;
   background-color: yellow;
   font-size: larger;
   }
 
 select{
-  border-radius: 25px;
+  border-radius: 3em;
   cursor: pointer;
-  background-color:rgba(89, 219, 89, 0.854);
+  background-color:#faf601dc;
   font-size: large;
-  box-shadow: 0 0 40px rgb(209, 232, 61);
-  }
+  color: rgb(17, 16, 16);
+  box-shadow: 0 0 40px rgb(5, 255, 38);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
 
 label {
   font-size:x-large;
   font-weight: bolder;
+  color: rgb(248, 245, 245);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
   }
 
-.cartasPersonajes { /*revisar*/
-  max-width: 1200px;
-  display:grid;
-  grid-template-columns: 150px 150px 150px 150px 150px;
-  grid-template-rows: repeat();
+p{
+  text-align: center;
+  font-size:large;
+  margin-top: 4%;
+}
+
+.cartasPersonajes {
+ display:grid;
+  grid-template-columns: repeat(6, 9.3fr );
   grid-gap: 1rem;
   justify-content: center;
   text-align: center;
@@ -58,7 +75,7 @@ label {
   padding: 5%;
   }
 
-  @media (max-width: 800px) {
+ @media (max-width: 800px) {
     .cartasPersonajes {
     display: grid;
     grid-template-columns: 200px 200px;
@@ -72,22 +89,26 @@ label {
     }
   
 .personajes-tarjeta {
-  margin: 10px;
-  background-color: rgb(1, 170, 1);
-  border-radius: 25px; 
+  margin: 8%;
+  background-color: #0bac25;
+  border-radius: 2em; 
   height: auto; 
   width: auto;  
+  box-shadow: 0 0 40px rgb(5, 255, 38);
+  color: black;
+  font-weight:900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
   }
 
 .personajes-tarjeta img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 70%;
+  max-height: 60%;
   padding-top: 5%;
   justify-content: center;
   border-radius: 25%;
   }
 
-  @media (max-width: 800px) {
+ @media (max-width: 800px) {
     .personajes-tarjeta img {
     max-width: 80%;
     max-height: 50%;}
@@ -110,16 +131,13 @@ label {
 
 .divInfoPersonaje {
   background-color: yellow;
-  padding: 20px;
+  /*padding: 20px;*/
   max-width: 80%;
   padding: 4%;
   border-radius: 3em;
   text-align: center; 
   box-shadow: 0 0 40px rgb(252, 255, 79);     
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';    
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  text-align: center;          
   }
 
   @media (max-width: 800px) {
@@ -153,10 +171,10 @@ label {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 }
 
+
 #promedioboton:active {
   justify-content: center;
   background-color:#faf601dc;
   transform:translateY(4px);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 }
-
