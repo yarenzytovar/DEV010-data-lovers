@@ -112,6 +112,11 @@ label {
   background-color: yellow;
   padding: 20px;
   max-width: 80%;
+  padding: 4%;
+  border-radius: 3em;
+  text-align: center; 
+  box-shadow: 0 0 40px rgb(252, 255, 79);     
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';    
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   text-align: center;          
@@ -126,4 +131,32 @@ label {
   visibility: visible;
   opacity: 1;
   }
-          
+
+.promedioLista{
+  color: black;
+  padding: 4%;
+  background-color: #0bac25;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 0 40px rgb(252, 255, 79); 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+#promedioboton {
+  margin-left: 40%;
+  color: black;
+  font-size: large;
+  cursor: pointer;
+  background-color: rgb(5, 255, 38);
+  border-radius: 3em;
+  box-shadow: 0 0 40px #faf601dc;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+#promedioboton:active {
+  justify-content: center;
+  background-color:#faf601dc;
+  transform:translateY(4px);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
