@@ -170,7 +170,6 @@ p{
   text-align: center;
   box-shadow: 0 0 40px rgb(252, 255, 79); 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
-
 }
 
 #promedioboton {
@@ -183,7 +182,6 @@ p{
   box-shadow: 0 0 40px #faf601dc;  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 }
-
 
 #promedioboton:active {
   justify-content: center;
