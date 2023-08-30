@@ -2,7 +2,6 @@
 import breakingbad from "./data/breakingbad/breakingbad.js";
 import { filtroCategoriaSerie, funcionDeOrdenarDatos,promedioBreakingBad} from "./data.js";
 //import { filtradoSerie } from './data.js';
-//CONSTANTE PARA GUARDAR TODA LA DATA
 const datosPersonajes = breakingbad;
 
 //CONSTANTES PARA ELEMENTOS DEL HTML
