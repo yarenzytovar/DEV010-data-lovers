@@ -56,24 +56,23 @@ Se desarrollaron cuatro historias de usuario de acuerdo con las necesidades de l
 ## Diseño de interfaz
 
 Para comenzar se realizó un prototipo de baja fidelidad en Figma donde se muestra a grandes rasgos el funcionamiento y diseño de la página. Se colocaron en tarjetas las imagenes de los personajes con su nombre debajo, todas en forma de cuadrícula.
+![Primer prototipo en figma](src/imagenes/prototipo.jpg)
 
-imagen______
 
 Se diseñó con la paleta de colores de la serie y utilizando el logo. Una vez lista la primer iteración se elboró la parte responsiva del proyecto como se muestra en la imagen. 
+![Imagen responsive](src/imagenes/responsivo.jpg)
 
-Imagen responsiva________
 
 Se desarrolló el CSS de la función de mostrar la información de los personajes utilizando la propiedad box-shadow para darle efecto de flourescencia al recuadro y llamar la atención de la usuaria
+![Al dar click en la tarjeta se muestra la información de los personajes](src/imagenes/infopersonaje.jpg)
 
-Imagen información personajes_____
 
 Posteriormente en las siguientes iteraciones se modificó el color de fondo y se agregó colores, box-shadow y borde a los botones.
-
-Imagen nuevo diseño_______
+![Segunda iteración del diseño en CSS](src/imagenes/infopersonaje.jpg)
 
 Y para colocar la ultima funcionalidad, se respetó la forma de las tarjetas de los personajes para mostrar los porcentajes de aparición de los personajes en la serie Breaking Bad
+![Se muestra el porcentaje de aparición de los personajes en la serie](src/imagenes/porcentaje.jpg)
 
-Imagen porcentaje ____________
 
 
 ## Tests
